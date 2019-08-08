@@ -24,7 +24,7 @@ def main():
     # Prompts the user to provide a message
     message = get_string('What message would you like to censor?\n')
 
-    # Returns a list of the words in the string
+    # Returns a list of the words from the message
     list = message.split()
 
     # Compares the list of "tokens" (words) from the message w/ the banned words
